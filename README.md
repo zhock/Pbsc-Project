@@ -32,6 +32,8 @@ Linking react-native-gesture-handler library uses native support for handling ge
 
 -Android configuration: https://kmagiera.github.io/react-native-gesture-handler/docs/getting-started.html
 
+#### react-native link 
+
 #### npm start
 
 Runs your app in development mode.
@@ -46,7 +48,13 @@ yarn start --reset-cache
 
 #### `react-native run-ios`
 
-Like `npm start`, but also attempts to open your app in the iOS Simulator if you're on a Mac and have it installed.
+Like `npm start`, but also attempts to open your app in the iOS Simulator if you're on a Mac and have it installed.If the build fail you can move to the ios folder and run this commmand:
+
+```
+pod install
+cd ..
+react-native run-ios (run again)
+```
 
 #### `react-native run-android`
 
