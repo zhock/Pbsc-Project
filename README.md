@@ -1,5 +1,9 @@
 # Pbsc-Project
-This project is a Javascript Developer Test
+Recover password app for iOS and Android. This is a test using React native, Axios, Prop-types, Native Base and Pose.
+
+
+![](video.gif)
+
 
 ## Getting Started
 
